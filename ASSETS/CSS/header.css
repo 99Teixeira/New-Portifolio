@@ -1,0 +1,38 @@
+@import url(./root.css);
+
+header {
+    position: fixed; /*fixao de posição*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+#menu-icon {
+    font-size: 30px;
+    color: var(--text-color);
+    display: none;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: var(--text-color);
+    margin-left: 20px;
+    transition: .3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
